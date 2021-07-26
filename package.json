@@ -1,5 +1,5 @@
 {
-  "name": "notes-api",
+  "name": "postitstore-api",
   "version": "2.2.0",
   "description": "A Node.js starter for Serverless Framework with ES6 and TypeScript support",
   "main": "handler.js",
@@ -27,6 +27,7 @@
   },
   "keywords": [],
   "dependencies": {
+    "pg": "^8.6.0",
     "uuid": "^7.0.3"
   }
 }
